@@ -1,1 +1,0 @@
-# NYRA_TECH
