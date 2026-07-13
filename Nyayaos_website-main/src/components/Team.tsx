@@ -10,7 +10,7 @@ const MEMBERS = [
   },
   { 
     name: "Manogna Kondapaturi", 
-    role: "Co-founder & CEO", 
+    role: "Founder & CEO", 
     img: manognaImg 
   },
 ];
