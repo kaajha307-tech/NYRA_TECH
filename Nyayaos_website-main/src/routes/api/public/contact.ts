@@ -79,7 +79,7 @@ export const Route = createFileRoute("/api/public/contact")({
         });
         const founder = await trySend(origin, {
           templateName: "contact-founder-notification",
-          recipientEmail: "NYRA TECH .official@gmail.com",
+          recipientEmail: "NYGENX .official@gmail.com",
           idempotencyKey: `contact-founder-${data.id}`,
           templateData: {
             name: payload.name,

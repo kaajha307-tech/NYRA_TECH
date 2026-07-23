@@ -17,12 +17,12 @@ const KB: { match: RegExp; reply: string }[] = [
   { match: /book|consult|meeting|call/i, reply: "Scroll to the Command Center and pick 'Schedule a call' — you'll get an instant email confirmation." },
   { match: /ai|llm|agent/i, reply: "Our AI Core ships agentic workflows, RAG, voice copilots, eval and guardrails — all production-grade." },
   { match: /erp|crm/i, reply: "Our ERP/CRM stack unifies HR, Finance, Inventory, Sales, Marketing and Projects with realtime BI." },
-  { match: /human|support|agent|person/i, reply: "Tap the 'Live support' button at the top — drop your email and a NYRA TECH  specialist will call you back." },
+  { match: /human|support|agent|person/i, reply: "Tap the 'Live support' button at the top — drop your email and a NYGENX  specialist will call you back." },
 ];
 
 function reply(text: string) {
   for (const k of KB) if (k.match.test(text)) return k.reply;
-  return "Got it. A NYRA TECH  strategist will follow up — meanwhile try a suggested prompt or request live support.";
+  return "Got it. A NYGENX  strategist will follow up — meanwhile try a suggested prompt or request live support.";
 }
 
 export function Chatbot() {
@@ -35,17 +35,17 @@ export function Chatbot() {
   const [handoffStatus, setHandoffStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [msgs, setMsgs] = useState<Msg[]>(() => {
     try {
-      const saved = localStorage.getItem("NYRA TECH :chat");
+      const saved = localStorage.getItem("NYGENX :chat");
       if (saved) return JSON.parse(saved);
     } catch {
       // ignore
     }
-    return [{ role: "bot", text: "Hi, I'm Nyx — the NYRA TECH  assistant. Ask anything about our services or tap Live support to talk to a human." }];
+    return [{ role: "bot", text: "Hi, I'm Nyx — the NYGENX  assistant. Ask anything about our services or tap Live support to talk to a human." }];
   });
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    localStorage.setItem("NYRA TECH :chat", JSON.stringify(msgs));
+    localStorage.setItem("NYGENX :chat", JSON.stringify(msgs));
     endRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [msgs]);
 
@@ -82,7 +82,7 @@ export function Chatbot() {
         ...m,
         {
           role: "system",
-          text: `Call request received. We've emailed next steps to ${handoffEmail}. A NYRA TECH  specialist will call shortly.`,
+          text: `Call request received. We've emailed next steps to ${handoffEmail}. A NYGENX  specialist will call shortly.`,
         },
       ]);
       setTimeout(() => {

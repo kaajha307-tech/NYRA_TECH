@@ -15,9 +15,9 @@ import { SoundProvider } from "@/lib/sound-context";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "NYRA TECH  — AI-Powered Business Operating System" },
+      { title: "NYGENX  — AI-Powered Business Operating System" },
       { name: "description", content: "Premium AI, ERP, creative and cloud capabilities unified into one futuristic operating system for ambitious teams." },
-      { property: "og:title", content: "NYRA TECH  — Transforming Businesses Through AI-Powered Innovation" },
+      { property: "og:title", content: "NYGENX  — Transforming Businesses Through AI-Powered Innovation" },
       { property: "og:description", content: "Premium AI, ERP, creative and cloud capabilities unified into one futuristic operating system." },
     ],
   }),

@@ -138,7 +138,7 @@ export function Contact() {
               </h3>
               <p className="mt-3 text-muted-foreground max-w-md mx-auto">
                 A confirmation email is on its way to <span className="text-cyan">{email}</span>.
-                The NYRA TECH  team will reach out shortly.
+                The NYGENX  team will reach out shortly.
               </p>
               <button
                 onClick={reset}
@@ -264,18 +264,18 @@ export function Contact() {
               </div>
               <div>
                 <div className="font-display text-sm font-semibold">Harsha Vardhan Kakani</div>
-                <div className="text-[11px] text-muted-foreground">Founder · NYRA TECH </div>
+                <div className="text-[11px] text-muted-foreground">Founder · NYGENX </div>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <a
-                href="tel:+917013345054"
+                href="tel:+917675830939"
                 className="inline-flex items-center gap-1.5 rounded-xl glass px-3 py-2 text-xs hover:text-cyan transition-colors"
               >
-                <Phone className="h-3.5 w-3.5" /> +91 70133 45054
+                <Phone className="h-3.5 w-3.5" /> +91 76758 30939
               </a>
               <a
-                href="mailto:NYRA TECH .official@gmail.com"
+                href="mailto:nygenx@nygenx.com"
                 className="inline-flex items-center gap-1.5 rounded-xl glass px-3 py-2 text-xs hover:text-cyan transition-colors"
               >
                 <Mail className="h-3.5 w-3.5" /> Email

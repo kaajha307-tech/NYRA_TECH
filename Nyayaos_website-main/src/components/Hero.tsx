@@ -133,14 +133,14 @@ export function Hero() {
           <div className="max-w-3xl reveal">
             <span className="inline-flex items-center gap-2 rounded-full glass px-3 py-1 text-xs text-cyan">
               <span className="h-1.5 w-1.5 rounded-full bg-cyan animate-pulse" />
-              NYRA TECH  — Operating system for next-gen business
+              NYGENX  — Operating system for next-gen business
             </span>
             <h1 className="mt-6 font-display text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight">
               Transforming Businesses Through{" "}
               <span className="text-gradient">AI-Powered Innovation</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-2xl">
-              From custom AI agents to cinematic creative production — NYRA TECH  is the
+              From custom AI agents to cinematic creative production — NYGENX  is the
               unified intelligence layer powering ambitious teams across the globe.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">

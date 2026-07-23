@@ -21,12 +21,12 @@ export const Route = createFileRoute("/services/$slug")({
   head: ({ loaderData }) => ({
     meta: loaderData
       ? [
-          { title: `${loaderData.service.title} — NYRA TECH ` },
+          { title: `${loaderData.service.title} — NYGENX ` },
           { name: "description", content: loaderData.service.description },
-          { property: "og:title", content: `${loaderData.service.title} — NYRA TECH ` },
+          { property: "og:title", content: `${loaderData.service.title} — NYGENX ` },
           { property: "og:description", content: loaderData.service.description },
         ]
-      : [{ title: "Service — NYRA TECH " }],
+      : [{ title: "Service — NYGENX " }],
   }),
   notFoundComponent: () => (
     <div className="min-h-screen grid place-items-center px-6">
@@ -186,7 +186,7 @@ function ServicePage() {
 
           {/* Related services */}
           <section className="mt-20">
-            <h2 className="font-display text-2xl font-bold">More from NYRA TECH </h2>
+            <h2 className="font-display text-2xl font-bold">More from NYGENX </h2>
             <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
               {services.filter((s) => s.slug !== service.slug).slice(0, 4).map((s) => (
                 <Link key={s.slug} to="/services/$slug" params={{ slug: s.slug }} className="glass rounded-xl p-4 hover:-translate-y-1 transition-all">

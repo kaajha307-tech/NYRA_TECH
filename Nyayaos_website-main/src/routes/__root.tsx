@@ -77,17 +77,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "NYRA TECH  — AI-Powered Business Operating System" },
+      { title: "NYGENX  — AI-Powered Business Operating System" },
       { name: "description", content: "Premium AI, ERP, website development, creative, and cloud capabilities unified into one futuristic operating system for ambitious teams." },
-      { name: "keywords", content: "NYRA TECH , Nyaya, Nyaya OS, business intelligence, enterprise resource planning, ERP solutions, AI agents, creative production studio, cloud infrastructure, website development" },
-      { name: "author", content: "NYRA TECH " },
+      { name: "keywords", content: "NYGENX , Nyaya, Nyaya OS, business intelligence, enterprise resource planning, ERP solutions, AI agents, creative production studio, cloud infrastructure, website development" },
+      { name: "author", content: "NYGENX " },
       { name: "robots", content: "index, follow" },
-      { property: "og:title", content: "NYRA TECH  — AI-Powered Business Operating System" },
+      { property: "og:title", content: "NYGENX  — AI-Powered Business Operating System" },
       { property: "og:description", content: "Premium AI, ERP, website development, creative, and cloud capabilities unified into one futuristic operating system for ambitious teams." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@NYRA TECH " },
-      { name: "twitter:title", content: "NYRA TECH  — AI-Powered Business Operating System" },
+      { name: "twitter:site", content: "@NYGENX " },
+      { name: "twitter:title", content: "NYGENX  — AI-Powered Business Operating System" },
       { name: "twitter:description", content: "Premium AI, ERP, website development, creative, and cloud capabilities unified into one futuristic operating system for ambitious teams." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d1d8e8d0-6112-420c-8ada-ca3c31fe6015/id-preview-7f6c517b--a34fe2cd-3c99-4445-b5a2-c60c7f9afa71.lovable.app-1781965089630.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d1d8e8d0-6112-420c-8ada-ca3c31fe6015/id-preview-7f6c517b--a34fe2cd-3c99-4445-b5a2-c60c7f9afa71.lovable.app-1781965089630.png" },
@@ -116,12 +116,12 @@ function RootShell({ children }: { children: ReactNode }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "NYRA TECH ",
-              "url": "https://NYRA TECH .com",
-              "logo": "https://NYRA TECH .com/assets/nyaya-logo.png",
-              "description": "NYRA TECH  is a unified intelligence layer powering ambitious teams, integrating website development, custom ERP solutions, creative VFX production, and fine-tuned AI workflows.",
+              "name": "NYGENX ",
+              "url": "https://NYGENX .com",
+              "logo": "https://NYGENX .com/assets/nyaya-logo.png",
+              "description": "NYGENX  is a unified intelligence layer powering ambitious teams, integrating website development, custom ERP solutions, creative VFX production, and fine-tuned AI workflows.",
               "sameAs": [
-                "https://github.com/Gokul2004-ne/NYRA TECH _website"
+                "https://github.com/Gokul2004-ne/NYGENX _website"
               ]
             })
           }}

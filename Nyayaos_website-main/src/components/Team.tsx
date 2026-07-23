@@ -4,15 +4,15 @@ import manognaImg from "@/assets/team/manogna.jpeg";
 
 const MEMBERS = [
   { 
-    name: "Harsha Vardhan Kakani", 
-    role: "Founder", 
-    img: harshaImg 
-  },
-  { 
     name: "Manogna Kondapaturi", 
     role: "Founder & CEO", 
     img: manognaImg 
   },
+  { 
+    name: "Harsha Vardhan Kakani", 
+    role: "Founder", 
+    img: harshaImg 
+  }
 ];
 
 export function Team() {

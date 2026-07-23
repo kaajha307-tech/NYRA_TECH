@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://NYRA TECH -website.vercel.app/sitemap.xml
+Sitemap: https://NYGENX -website.vercel.app/sitemap.xml

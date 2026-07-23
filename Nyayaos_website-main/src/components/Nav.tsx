@@ -33,9 +33,9 @@ export function Nav() {
           }`}
         >
           <Link to="/" className="flex items-center gap-2.5 group">
-            <img src={logoAsset} alt="NYRA TECH " className="h-9 w-9 object-contain group-hover:scale-110 transition-transform" />
+            <img src={logoAsset} alt="NYGENX " className="h-9 w-9 object-contain group-hover:scale-110 transition-transform" />
             <span className="font-display text-lg font-bold tracking-tight text-gradient">
-              NYRA TECH 
+              NYGENX 
             </span>
           </Link>
           <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
